@@ -1,0 +1,50 @@
+body{padding:0;margin:0; font-family:Arial;}
+.bodyTemplate{width:474px;margin:0 auto; padding-bottom:80px}
+.Header{background-color:#fee042; position:relative;}
+.logo{display: block;position: absolute;top: 0;left: 18px;}
+.site-title{padding: 23px 0 23px 130px;margin:0;font-family:Arial, Helvetica, sans-serif;font-size:30px;}
+.d_test{padding: 8px 14px;font-size: 18px;line-height: 25px;word-spacing: 2px;}
+.select_oprion{width:424px;margin:0 auto;}
+.option{background: #f9f2e0;width: 184px;height: 142px;padding:10px; float:left;margin-bottom:10px;}
+.option.even{ float:right;}
+.number{background:url(images/oprion-bg.png) no-repeat;font-size: 32px;font-weight: bold;padding: 4px 0 4px 0;float: left;text-align: center;width: 43px;}
+.BigTitle{float: left;margin: 0;padding: 3px 0px 0 7px;}
+.righttext ul{margin: 0;padding: 0;list-style: none;font-size: 14px;padding-left: 50px;line-height: 18px;}
+.ContactTitle{text-align:center;margin: 10px 0 20px;font-size: 14px;}
+.ContactTitle span{background-color:#f7f4e1;padding: 5px 10px;}
+.contactform{margin:0 auto;width:183px; font-size:14px;}
+.contactform p{margin:4px 0}
+.submit input[type="submit"] {
+    cursor: pointer;
+    margin: 20px auto 0;
+    border: 1px solid #ccc;
+    background: #F6B632;
+    padding: 5px 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+@media screen and (max-width: 473px){
+.bodyTemplate {
+    width: 94%;
+    padding: 0 3%;
+}
+.logo {
+    position: static;
+    width: 96px;
+    margin: 0 auto;
+}
+.site-title {
+    padding: 10px 0 20px;
+    text-align: center;
+}
+.select_oprion {
+    width: 100%;
+}
+.option {
+    float: none;
+    margin: 0 auto 12px;
+}
+.option.even {
+    float: none;
+}
+}
